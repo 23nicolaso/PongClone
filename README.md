@@ -9,5 +9,7 @@ T - toggle between singleplayer and multiplayer (singleplayer makes right paddle
 R - restart
 1,2,3 - Choose whether to have 1 ball, 2 balls or 3 balls in play! 
 
+Have Fun!!!
 
 ![alt text](readme/gameplay.png)
+![alt_text](readme/endscreen.png)
