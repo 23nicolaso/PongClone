@@ -333,7 +333,17 @@ void render()
 
 }
 
-void shutdown() { CloseWindow(); }
+void shutdown() { 
+    CloseWindow(); 
+
+    // Unload all textures
+    UnloadTexture(gLeftPlayerTexture);
+    UnloadTexture(gRightPlayerTexture);
+    UnloadTexture(gBallTexture);
+    UnloadTexture(gBGTexture);
+    UnloadTexture(gBlueWinScreenTexture);
+    UnloadTexture(gRedWinScreenTexture);
+}
 
 int main(void)
 {
