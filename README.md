@@ -1,7 +1,9 @@
 A clone of the popular game pong that I made for my games programming class! 
 Written in C++ with Raylib. 
 
-To run, clone, cd into the folder, and run the "make run" command. 
+To run, you have two options: 
+1. Simply run raylib_app.exe
+2. clone, cd into the folder, and run the "make run" command. 
 Controls:
 WS - Move left paddle up and down.
 Up arrow, down arrow - Move right paddle up and down.
